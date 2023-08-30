@@ -1,0 +1,19 @@
+name: Build ZMK firmware
+on:
+  push:
+    paths:
+      - build.yaml
+      - config/*.keymap
+      - config/*.dtsi
+      - config/west.yaml
+  pull_request:
+    paths:
+      - build.yaml
+      - config/*.keymap
+      - config/*.dtsi
+      - config/west.yaml
+  workflow_dispatch:
+  
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main

@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '&caps_word'
+  - {t: '~', s: '&caps_word'}
   - TAB
   - Q
   - W

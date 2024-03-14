@@ -139,8 +139,8 @@ layers:
   - INS
   - PSCRN
   - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - OUT USB
+  - OUT BLE
   - PG UP
   - HOME
   - UP

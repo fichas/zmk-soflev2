@@ -94,7 +94,7 @@ layers:
   - LSHFT
   - {t: ▽, type: trans}
   - CLCK
-  - {t: ▽, type: trans}
+  - PAGE DOWN
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT
@@ -110,7 +110,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PREV
-  - PP
+  - PLAY PAUSE
   - NEXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
